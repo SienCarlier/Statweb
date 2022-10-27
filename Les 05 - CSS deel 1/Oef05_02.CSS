@@ -1,0 +1,12 @@
+body{
+    background-color: gainsboro;
+
+}
+a:link{
+    color: red;
+    text-decoration: none;
+}
+#rood{
+    color: red;
+    text-decoration: none;
+}

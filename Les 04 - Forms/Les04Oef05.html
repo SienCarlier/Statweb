@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form 5</title>
+</head>
+<body>
+    <form action="verzenden.php" method="post"></form>
+    <div>
+        <label for="Voornaam">Voornaam: <input type="text" id="Voornaam" name="Voornaam"</label>
+    </div>
+    <div>
+        <label for="Familienaam">Familienaam: <input type="text" id="Familienaam" name="Familienaam"</label>
+    </div>
+    <div>
+        <label for="Adres">Adres: <input type="text" id="Adres" name="Adres"</label>
+    </div>
+    <label for="Provincie">Provincie:
+        <select name="Auto" id="Auto"
+            <option> Antwerpen </option>
+            <option> Antwerpen </option>
+            <option> Vlaams Brabant</option>
+            <option> Limburg</option>
+            <option> Oost Vlaanderen </option>
+            <option> West Vlaanderen </option>
+            <option> Luik </option>
+            <option> Namen </option>
+        </select>
+    <div>
+        <fieldset>
+            <legend>Geslacht</legend>
+            <div>
+                <label for="Man">Man <input type="radio" id="Man" name="Gender" value="Man"</label>
+            <label for="Vrouw">Vrouw <input type="radio" id="Vrouw" name="Gender" value="Vrouw"</label>
+            <label for="Ander">Ander <input type="radio" id="Vrouw" name="Gender" value="Vrouw"</label>
+            </div>
+        </fieldset>
+    </div>
+
+    
+    <input type="submit" value="Registreren"/>
+</body>
+</html>
